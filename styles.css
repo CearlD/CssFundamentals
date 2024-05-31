@@ -12,7 +12,7 @@ body {
   width: 800px;
   /* margin-left: auto;
   margin-right: auto; */
-   margin: 0 auto;   /*Shorthand */
+  margin: 0 auto; /*Shorthand */
 }
 
 .main-header {
@@ -34,8 +34,6 @@ article {
   margin-bottom: 40px;
 }
 
-
-
 aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
@@ -45,7 +43,6 @@ aside {
   padding: 50px 0;
   width: 500px;
 }
-
 
 h1 {
   font-size: 26px;
@@ -65,7 +62,6 @@ h3 {
   margin-top: 40px;
 }
 
-
 h4 {
   font-size: 20px;
   text-transform: uppercase;
@@ -78,7 +74,8 @@ p {
   margin-bottom: 15px;
 }
 
-ul, ol {
+ul,
+ol {
   margin-left: 50px;
   margin-bottom: 20px;
 }
@@ -121,7 +118,6 @@ li:last-child {
 .related {
   /* list-style: none; */
 }
-
 
 /* .first-li {
   font-weight: bold;
@@ -189,5 +185,3 @@ a:active {
 footer p {
   color: green;
 }
-
-
