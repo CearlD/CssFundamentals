@@ -1,7 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  border: 2px solid black;
   font-family: sans-serif;
   line-height: 1.4;
+}
+
+.container {
+  width: 825px;
+  margin: 142px auto;
+  border: 2px solid black;
+
 }
 
 a:link {
@@ -17,6 +28,7 @@ article h2 {
   text-transform: uppercase;
   background-color: lightgray;
   text-align: center;
+  padding: 15px;
 }
 
 .price {
@@ -28,23 +40,38 @@ article h2 {
   text-transform: uppercase;
   font-size: 13px;
   color: gray;
+  margin-bottom: 15px;
+}
+
+.dress {
+  margin-bottom: 8px;
 }
 
 .description {
   list-style: square;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
 }
 
 h3 {
   text-transform: uppercase;
   font-size: 18px;
+  margin-bottom: 8px;
+  margin-top: 30px;
 }
 
 button {
+  width: 100%;
   font-size: 20px;
   text-transform: uppercase;
+  padding: 15px;
+  border-top: 2px solid black;
 }
 
-button:hover {
+.container:hover button {
   background-color: black;
   color: white;
 }
