@@ -12,7 +12,11 @@ body {
   width: 825px;
   margin: 142px auto;
   border: 2px solid black;
+}
 
+a {
+  display: inline-block;
+  margin-bottom: 30px;
 }
 
 a:link {
@@ -29,6 +33,19 @@ article h2 {
   background-color: lightgray;
   text-align: center;
   padding: 15px;
+  position: relative;
+}
+
+article h2::before {
+  content: 'SALE';
+  font-size: 15px;
+  padding: 8px 15px;
+  background-color: brown;
+  color: white;
+  position: absolute;
+  left: -40px;
+  top: -20px;
+  letter-spacing: 2px;
 }
 
 .price {
@@ -46,6 +63,32 @@ article h2 {
 .dress {
   margin-bottom: 8px;
 }
+
+.color {
+  background-color: #000;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.color1 {
+  background-color: blue;
+}
+.color2 {
+  background-color: red;
+}
+.color3 {
+  background-color: yellow;
+}
+.color4 {
+  background-color: green;
+}
+.color5 {
+  background-color: burlywood;
+  margin-right: 0;
+}
+
 
 .description {
   list-style: square;
